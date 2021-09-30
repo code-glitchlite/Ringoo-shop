@@ -1,0 +1,573 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainContainer {
+  width: 64em;
+  margin: 0 auto;
+}
+
+/* header */
+
+.mainContainer .headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.mainContainer .headerContainer .logo h2 {
+  display: inline;
+  background-color: #333333;
+  color: white;
+  padding: 0.15em 0.55em;
+  border-radius: 50%;
+  font-size: 1.2em;
+}
+
+.mainContainer .headerContainer .navigation a {
+  padding: 0 1.5em;
+  color: #414141;
+  font-size: 0.85em;
+}
+
+.mainContainer .headerContainer .searchButton {
+  padding: 0.5em 0.7em;
+  border: 0.09em solid #dedede;
+  border-radius: 50%;
+  color: #414141;
+}
+
+/* Body Section */
+/* Title Section */
+
+.mainContainer .bodyContainer .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainContainer .bodyContainer .title .titleContainer {
+  margin-bottom: 2em;
+}
+
+.mainContainer .bodyContainer .title .titleContainer h5 {
+  color: #f66c2f;
+  font-weight: 600;
+  margin-block: 0;
+  line-height: 2;
+}
+
+.mainContainer .bodyContainer .title .titleContainer h1 {
+  font-family: "Playfair Display", serif;
+  color: #414141;
+  font-size: 3.8em;
+  margin-block: 0;
+  margin-bottom: 1em;
+}
+
+/* Founder */
+
+.hrVertical {
+  height: 12em;
+  border-left: 0.06em solid #80808063;
+  margin-right: 2em;
+  float: left;
+}
+
+.mainContainer .bodyContainer .title .titleContainer .founderMsg .founderInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.mainContainer
+  .bodyContainer
+  .title
+  .titleContainer
+  .founderMsg
+  .founderInfo
+  .founderImg
+  img {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 2em;
+  box-shadow: 0 0.5em 0.9em grey;
+}
+
+.mainContainer
+  .bodyContainer
+  .title
+  .titleContainer
+  .founderMsg
+  .founderInfo
+  .founderText
+  h4 {
+  margin-block: 0;
+  word-spacing: 0.2em;
+  color: #333333;
+  line-height: 2.3;
+}
+
+.mainContainer
+  .bodyContainer
+  .title
+  .titleContainer
+  .founderMsg
+  .founderInfo
+  .founderText
+  p {
+  margin-block: 0;
+  font-size: 0.9em;
+  color: #808080;
+}
+
+.mainContainer .bodyContainer .title .titleContainer .founderMsg p {
+  font-size: 0.85em;
+  color: #808080;
+  word-spacing: 0.2em;
+  width: 90%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+/* Explore Button */
+
+.mainContainer .bodyContainer .title .titleContainer .exploreButton a {
+  color: white;
+  background-color: #333333;
+  padding: 1.5em 1.5em;
+  font-size: 0.95em;
+}
+
+.mainContainer .bodyContainer .title .titleContainer .exploreButton i {
+  margin-left: 1em;
+}
+
+/* Image Jacket */
+
+.mainContainer .bodyContainer .title .titleImage img {
+  width: 26em;
+  height: 39em;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 3em 2em grey;
+}
+
+.mainContainer .bodyContainer .productDescription {
+  color: white;
+  position: absolute;
+  left: 49em;
+  top: 35em;
+}
+
+.mainContainer .bodyContainer .productDescription .productTitle {
+  background-image: linear-gradient(to bottom, #fd6a2a 70%, #d65f2a 30%);
+  width: 75%;
+}
+
+.mainContainer .bodyContainer .productDescription .productTitle h3 {
+  padding: 1em 2em;
+  font-size: 1.5em;
+  font-family: "Playfair Display", serif;
+  margin-block: 0;
+}
+
+.mainContainer .bodyContainer .productDescription .productTitle a {
+  color: white;
+}
+
+.mainContainer .bodyContainer .productDescription .productTitle i {
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.mainContainer .bodyContainer .productDescription .productTitle .productPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  font-size: 0.9em;
+}
+/* About Section */
+
+.mainContainer .bodyContainer .aboutSection .aboutContainer {
+  margin-top: 10em;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+}
+
+/* Model Images */
+
+.mainContainer .bodyContainer .aboutSection .aboutContainer .modelImg {
+  position: relative;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .modelImg
+  .menModelImg
+  img {
+  width: 24em;
+  height: 65vh;
+  object-fit: cover;
+  position: absolute;
+  bottom: 25em;
+  left: 2.5em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .modelImg
+  .menModelImg
+  a {
+  color: #444444;
+  background-color: white;
+  padding: 0.6em 1.5em;
+  font-size: 0.8em;
+  position: absolute;
+  right: -23em;
+  top: 20em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .modelImg
+  .womenModelImg
+  img {
+  width: 24em;
+  height: 65vh;
+  object-fit: cover;
+  position: absolute;
+  top: 24em;
+  left: 2.5em;
+  box-shadow: 0 3em 2em grey;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .modelImg
+  .womenModelImg
+  a {
+  position: absolute;
+  right: -24em;
+  top: 58em;
+  color: white;
+  background-color: #f66c2f;
+  padding: 0.6em 1.5em;
+  font-size: 0.8em;
+}
+
+/* About Title */
+
+.mainContainer .bodyContainer .aboutSection .aboutContainer .aboutTitle {
+  width: 50%;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .aboutText
+  h5 {
+  color: #f66c2f;
+  font-weight: 600;
+  margin-block: 0;
+  line-height: 2;
+  margin-top: 6em;
+  margin-bottom: 0.8em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .aboutText
+  h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 3.5em;
+  margin-block: 0;
+  width: 90%;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .aboutText
+  p {
+  color: #adadad;
+  font-size: 0.85em;
+  padding: 2em 0;
+  width: 90%;
+}
+
+/* Cards */
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .newArrivalCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 5em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .newArrivalCards
+  .cardStyle {
+  border: 0.15em solid #444444;
+  padding: 1.2em 2.6em;
+  text-align: center;
+  margin-right: 0.8em;
+}
+
+.lightCardColor {
+  background-color: #444444;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .newArrivalCards
+  .cardStyle
+  h6 {
+  font-size: 3.5em;
+  margin-block: 0;
+  font-weight: 300;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .aboutContainer
+  .aboutTitle
+  .newArrivalCards
+  .cardStyle
+  p {
+  margin-block: 0;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+/* Brand Section */
+
+.mainContainer .bodyContainer .brandContainer {
+  margin-top: 15em;
+  text-align: center;
+}
+
+.mainContainer .bodyContainer .brandContainer i {
+  font-size: 1.8em;
+  background-color: #f66c2f;
+  color: white;
+  padding: 1em;
+  border-radius: 50%;
+  margin-bottom: 1.5em;
+}
+
+.mainContainer .bodyContainer .brandContainer .logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainContainer .bodyContainer .brandContainer .logosContainer .logos img {
+  width: 10em;
+  height: 5em;
+  object-fit: contain;
+}
+
+/* New Arrival Section */
+
+.mainContainer .bodyContainer .aboutSection .newArrivalContainer {
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalTitle
+  .arrivalTitleText
+  h5 {
+  color: #f66c2f;
+  font-weight: 600;
+  margin-block: 0;
+  margin-top: 6em;
+  margin-bottom: 0.8em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalTitle
+  .arrivalTitleText
+  h1 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  font-size: 3.5em;
+  margin-block: 0;
+  width: 90%;
+  margin-bottom: 1.2em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalDescription
+  .arrivalDresses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalDescription
+  .arrivalDresses
+  .dressImg
+  img {
+  width: 7em;
+  height: 17vh;
+  object-fit: cover;
+  object-position: bottom;
+  margin-bottom: 2.5em;
+  box-shadow: 0 0.5em 0.9em grey;
+  margin-right: 2em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalDescription
+  .arrivalDresses
+  .dressInfo
+  p {
+  color: #808080;
+  font-size: 0.8em;
+  margin-block: 0;
+  padding-top: 2em;
+}
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalDescription
+  .arrivalDresses
+  .dressInfo
+  h5 {
+  color: #333333;
+  font-size: 0.9em;
+  margin-block: 0;
+  padding-top: 1em;
+}
+
+/* Arrival title Image */
+
+.mainContainer
+  .bodyContainer
+  .aboutSection
+  .newArrivalContainer
+  .arrivalTitleImg
+  img {
+  width: 28em;
+  height: 39em;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Arrival title img Description */
+
+.arrivalProductinfo {
+  color: white;
+  position: absolute;
+  bottom: 3.6em;
+  right: 6.1em;
+}
+
+.arrivalProductinfo .arrivalProductTitle {
+  background-image: linear-gradient(to bottom, #fd6a2a 70%, #d65f2a 30%);
+}
+
+.arrivalProductinfo .arrivalProductTitle h3 {
+  padding: 1em 2em;
+  font-size: 1.5em;
+  font-family: "Playfair Display", serif;
+  margin-block: 0;
+}
+
+.arrivalProductinfo .arrivalProductTitle .arrivalProductPrice a {
+  color: white;
+}
+
+.arrivalProductinfo .arrivalProductTitle .arrivalProductPrice i {
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.arrivalProductinfo .arrivalProductTitle .arrivalProductPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  font-size: 0.9em;
+}
+
+/* footer Section */
+
+.footerContainer {
+  text-align: center;
+}
+
+.footerContainer h3 {
+  display: inline;
+  font-weight: lighter;
+  margin-right: 0.2em;
+}
+
+.footerContainer a {
+  color: #333333;
+  font-weight: bold;
+  font-size: 1.5em;
+}
